@@ -1,7 +1,11 @@
 # Plugin Course Archiver
 
 This plugin provides a simple cli script that allows to trigger course archives
-manually.
+manually on the command line of the Moodle server.
+If you want to automate course archives then the plugin
+[Course Life Cycle (moodle-tool_lifecycle)](https://github.com/learnweb/moodle-tool_lifecycle)
+is recommended to use.
+
 
 ## Usage
 
@@ -35,5 +39,3 @@ The folling options can be set:
   is used.
 * `-t` or `--target`  to define another directory where the course backup files
   are written to. Default is `moodle-data/course_archiver/`.
-
-
