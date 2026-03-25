@@ -39,3 +39,11 @@ The folling options can be set:
   is used.
 * `-t` or `--target`  to define another directory where the course backup files
   are written to. Default is `moodle-data/course_archiver/`.
+
+## Assets
+
+In the `assets` folder is a sample shell script, that may collect the created
+course backups on the Moodle server and transfers them to a backup location
+and then deleting the course backups on the Moodle server to save space. So,
+the `course_archiver.sh` is not really part of this plugin but can be used to
+store the backups in a safe space.
